@@ -1,7 +1,7 @@
 # wildhacks
 
-Team:
-Eunice Cho
-Soren Moore
-Eshan Haq
-Mingyuan Wang
+Team:\
+Eunice Cho\
+Soren Moore\
+Eshan Haq\
+Mingyuan Wang\
