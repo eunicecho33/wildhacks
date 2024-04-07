@@ -3,7 +3,7 @@ export default function Navbar() {
         <a href= "/" className="site-title">Your Search</a>
         <ul>
             <li>
-                <a href= "/about">About</a>
+                <a href= "/endingmessage">EndingMessage</a>
             </li>
         </ul>
     </nav>
