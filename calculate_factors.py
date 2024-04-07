@@ -15,6 +15,14 @@ print(factors)
 # lst = [x + y for x, y in zip(cps.loc[cps['Zip'] == 60610]['Graduation_School_Pct'], cps.loc[cps['Zip'] == 60610]['Population'])]
 
 for zip in zips:
-    temp = cps[cps['Zip'] == zip]
-    lst = [x/y for (x, y) in (temp['School_Survey_Safety'], temp['Population'])]
-    print(lst)
+    temp = cps.loc[(cps['Zip'] == zip) & (cps['Graduation_School_Pct'].notnull() == True) & (cps['Population'].notnull() == True)]
+    if len(temp) != 0:
+        temp_pop = temp['Population'].sum()
+        temp['num'] = temp.apply(lambda row: row.Graduation_School_Pct * (row.Population / temp_pop), axis=1)
+        print(temp['num'])
+    else:
+        # print(float('NaN'))
+        print('none')
+        pass
+    # create col num: grad / temp_pop
+    # sum of num
