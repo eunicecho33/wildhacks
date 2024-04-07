@@ -9,9 +9,9 @@ import 'bootstrap/dist/css/bootstrap.css'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    {/* <Message />
-    <App /> */}
-    <Ending />
+    <Message />
+    <App />
+    {/* <Ending /> */}
    
   </React.StrictMode>,
 )
