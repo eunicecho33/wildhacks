@@ -7,6 +7,7 @@ function EndingMessage() {
         <h14>3. </h14>
         <h20>4. </h20>
         <h26>5. </h26>
+        <><br /> </>
         </>
     );
    

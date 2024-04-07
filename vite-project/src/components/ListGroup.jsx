@@ -4,27 +4,27 @@ function ListGroup(){
     return (
         <Fragment>
             <h3> Select what is most Important to you 
-                 <br />Click in the order of importance
+                 <br />Fill in the order of importance
             </h3>
             <ul className="list-group">
                 <li className="list-group-item">
-                    School Safety
+                    School Safety 
                     <input type="number" />
                 </li>
                 <li className="list-group-item">
-                    Highschool Graduation Rate
+                    Highschool Graduation Rate 
                     <input type="number" />
                 </li>
                 <li className="list-group-item">
-                    College enrollment rate
+                    College enrollment rate 
                     <input type="number" />
                 </li>
                 <li className="list-group-item">
-                    SAT Score
+                    SAT Score 
                     <input type="number" />
                 </li>
                 <li className="list-group-item">
-                    For later
+                    For later 
                     <input type="number" />
                 </li>
             </ul>
