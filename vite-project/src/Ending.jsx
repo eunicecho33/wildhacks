@@ -4,7 +4,7 @@ function Ending() {
   
     return(
         <>
-        <img src={f1} width={1100} height = {700} margin={100} alt="F1 Redbull Image" style = {{float: 'right', marginLeft: '20px', marginRight: '10px', marginTop: '40px'}} /> 
+        <img src={f1} width={window.innerWidth*0.6} height = {window.innerWidth*0.4} margin={100} alt="F1 Redbull Image" style = {{float: 'right', marginLeft: '10px', marginRight: '10px', marginTop: window.innerHeight/2 - window.innerWidth*0.2}} /> 
         <h1>1. </h1>
             <><br /> </>
             <><br /> </>
@@ -16,7 +16,7 @@ function Ending() {
             <><br /> </>
             <><br /> </>
         <h1>3. </h1>
-            <><br /> </>
+            <><br /> </>s
             <><br /> </>
             <><br /> </>
             <><br /> </>
