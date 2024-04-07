@@ -7,11 +7,26 @@ function ListGroup(){
                  <br />Click in the order of importance
             </h3>
             <ul className="list-group">
-                <li className="list-group-item">School Safety</li>
-                <li  className="list-group-item"> Highschool Graduation Rate</li>
-                <li className="list-group-item">College enrollment rate</li>
-                <li className="list-group-item">SAT Score</li>
-                <li className="list-group-item">For later</li>
+                <li className="list-group-item">
+                    School Safety
+                    <input type="number" />
+                </li>
+                <li className="list-group-item">
+                    Highschool Graduation Rate
+                    <input type="number" />
+                </li>
+                <li className="list-group-item">
+                    College enrollment rate
+                    <input type="number" />
+                </li>
+                <li className="list-group-item">
+                    SAT Score
+                    <input type="number" />
+                </li>
+                <li className="list-group-item">
+                    For later
+                    <input type="number" />
+                </li>
             </ul>
         </Fragment>
     );
