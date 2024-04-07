@@ -1,4 +1,4 @@
-Long_Name,Population,Primary_Category,Address,Zip,School_Latitude,School_Longitude,Attainment_Reading_Pct_ES,Attainment_Math_Pct_ES,School_Survey_Safety,Suspensions_Per_100_Students_Pct,Misconducts_To_Suspensions_Pct,Student_Attendance_Pct,Teacher_Attendance_Pct,Graduation_School_Pct,College_Enrollment_School_Pct,Chronic_Truancy_Pct,SAT_Grade_11_Score_School_Avg
+Name,Population,Category,Address,Zip,Latitude,Longitude,Attainment_Reading_Pct_ES,Attainment_Math_Pct_ES,School_Survey_Safety,Suspensions_Per_100_Students_Pct,Misconducts_To_Suspensions_Pct,Student_Attendance_Pct,Teacher_Attendance_Pct,Graduation_School_Pct,College_Enrollment_School_Pct,Chronic_Truancy_Pct,SAT_Grade_11_Score_School_Avg
 Ira F Aldridge Elementary School,186,ES,630 E 131ST ST,60827,41.657405,-87.606474,33,33,WEAK,8.9,23.1,93.5,93,,,60.2,
 William E B Dubois Elementary School,213,ES,330 E 133RD ST,60827,41.653733,-87.61432,23,8,WEAK,4.7,5.4,93.9,94.2,,,18.5,
 George Washington Carver Primary School,413,ES,901 E 133RD PL,60827,41.653702,-87.599516,17,8,VERY WEAK,20.1,23.5,91.2,94.6,,,69.7,
